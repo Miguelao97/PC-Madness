@@ -22,7 +22,7 @@ namespace Serie3
     public class Ex2
     {
 
-        public static ResultParallel processDir(string dirPath, int numberOfFiles, CancellationToken ctoken)
+        public static ResultParallel processDir(string dirPath, int numberOfFiles, CancellationToken ctoken, Action<Object, Object> progress)
         {
             ResultParallel result = new ResultParallel(numberOfFiles);
             string[] arr = Directory.GetFiles(dirPath);
@@ -57,6 +57,7 @@ namespace Serie3
                         {
                             if (!partial.Exists) continue;
                             countFiles++;
+                            progress.Invoke(countFiles,arr.Length);
                             map.Add(partial.FullName, partial.Length);
                             if (result.list.Count < result.list.Capacity)
                             {
@@ -85,13 +86,13 @@ namespace Serie3
             return result;
         }
 
-        public static Task<ResultParallel> processDirAsync(string dirPath, int numberOfFiles, CancellationToken ctoken)
+        public static Task<ResultParallel> processDirAsync(string dirPath, int numberOfFiles, CancellationToken ctoken, Action<Object,Object> progress)
         {
             return Task.Factory.StartNew(() =>
             {
-                return processDir(dirPath, numberOfFiles, ctoken);
+                return processDir(dirPath, numberOfFiles, ctoken, progress);
 
-            }, ctoken);
+            }, ctoken, TaskCreationOptions.LongRunning, TaskScheduler.Default);
         }
     }
     public class Test
@@ -101,7 +102,7 @@ namespace Serie3
             CancellationTokenSource cts = new CancellationTokenSource();
             CancellationToken ct = cts.Token;
 
-            ResultParallel p = Ex2.processDir("D:\\2ºsemestre\\dumpFiles", 3, ct);
+            ResultParallel p = Ex2.processDir("D:\\2ºsemestre\\dumpFiles", 3, ct, (value1, value2) => { } );
             Console.WriteLine("Number of items processed {0}", p.numberOfFiles);
             p.list.ForEach((item) =>
             {

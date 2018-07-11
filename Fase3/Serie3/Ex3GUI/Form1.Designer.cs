@@ -32,7 +32,7 @@
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.Dir = new System.Windows.Forms.TextBox();
-            this.progress = new System.Windows.Forms.ProgressBar();
+            this.progressTask = new System.Windows.Forms.ProgressBar();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -44,9 +44,10 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(153, 124);
+            this.button1.Location = new System.Drawing.Point(204, 153);
+            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.Size = new System.Drawing.Size(100, 28);
             this.button1.TabIndex = 0;
             this.button1.Text = "Start";
             this.button1.UseVisualStyleBackColor = true;
@@ -54,9 +55,10 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(234, 124);
+            this.button2.Location = new System.Drawing.Point(312, 153);
+            this.button2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
+            this.button2.Size = new System.Drawing.Size(100, 28);
             this.button2.TabIndex = 1;
             this.button2.Text = "Cancel";
             this.button2.UseVisualStyleBackColor = true;
@@ -64,26 +66,28 @@
             // 
             // Dir
             // 
-            this.Dir.Location = new System.Drawing.Point(12, 83);
+            this.Dir.Location = new System.Drawing.Point(16, 102);
+            this.Dir.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Dir.Name = "Dir";
-            this.Dir.Size = new System.Drawing.Size(353, 20);
+            this.Dir.Size = new System.Drawing.Size(469, 22);
             this.Dir.TabIndex = 2;
             this.Dir.TextChanged += new System.EventHandler(this.Dir_TextChanged);
             // 
-            // progress
+            // progressTask
             // 
-            this.progress.Location = new System.Drawing.Point(12, 48);
-            this.progress.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.progress.Name = "progress";
-            this.progress.Size = new System.Drawing.Size(354, 19);
-            this.progress.TabIndex = 4;
+            this.progressTask.Location = new System.Drawing.Point(16, 59);
+            this.progressTask.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.progressTask.Name = "progressTask";
+            this.progressTask.Size = new System.Drawing.Size(472, 23);
+            this.progressTask.TabIndex = 4;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(12, 29);
+            this.label1.Location = new System.Drawing.Point(16, 36);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(48, 13);
+            this.label1.Size = new System.Drawing.Size(65, 17);
             this.label1.TabIndex = 5;
             this.label1.Text = "Progress";
             this.label1.Click += new System.EventHandler(this.label1_Click);
@@ -91,9 +95,10 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(12, 150);
+            this.label2.Location = new System.Drawing.Point(16, 185);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(42, 13);
+            this.label2.Size = new System.Drawing.Size(55, 17);
             this.label2.TabIndex = 6;
             this.label2.Text = "Results";
             this.label2.Click += new System.EventHandler(this.label2_Click);
@@ -101,30 +106,34 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(12, 67);
+            this.label3.Location = new System.Drawing.Point(16, 82);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(49, 13);
+            this.label3.Size = new System.Drawing.Size(65, 17);
             this.label3.TabIndex = 7;
             this.label3.Text = "Directory";
             // 
             // NumberOfFIles
             // 
-            this.NumberOfFIles.Location = new System.Drawing.Point(12, 127);
+            this.NumberOfFIles.Location = new System.Drawing.Point(16, 156);
+            this.NumberOfFIles.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.NumberOfFIles.Name = "NumberOfFIles";
-            this.NumberOfFIles.Size = new System.Drawing.Size(135, 20);
+            this.NumberOfFIles.Size = new System.Drawing.Size(179, 22);
             this.NumberOfFIles.TabIndex = 8;
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(12, 106);
+            this.label4.Location = new System.Drawing.Point(16, 130);
+            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(90, 13);
+            this.label4.Size = new System.Drawing.Size(120, 17);
             this.label4.TabIndex = 9;
             this.label4.Text = "Top Files Number";
             // 
             // contextMenuStrip1
             // 
+            this.contextMenuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.contextMenuStrip1.Name = "contextMenuStrip1";
             this.contextMenuStrip1.Size = new System.Drawing.Size(61, 4);
             this.contextMenuStrip1.Opening += new System.ComponentModel.CancelEventHandler(this.contextMenuStrip1_Opening);
@@ -132,28 +141,30 @@
             // listView1
             // 
             this.listView1.Alignment = System.Windows.Forms.ListViewAlignment.Default;
-            this.listView1.Location = new System.Drawing.Point(12, 175);
+            this.listView1.Location = new System.Drawing.Point(16, 215);
+            this.listView1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.listView1.Name = "listView1";
-            this.listView1.Size = new System.Drawing.Size(353, 293);
+            this.listView1.Size = new System.Drawing.Size(469, 360);
             this.listView1.TabIndex = 3;
             this.listView1.UseCompatibleStateImageBehavior = false;
             this.listView1.View = System.Windows.Forms.View.List;
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(377, 480);
+            this.ClientSize = new System.Drawing.Size(503, 591);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.NumberOfFIles);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.progress);
+            this.Controls.Add(this.progressTask);
             this.Controls.Add(this.listView1);
             this.Controls.Add(this.Dir);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Form1";
             this.Text = "DirParallel";
             this.ResumeLayout(false);
@@ -166,7 +177,7 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.TextBox Dir;
-        private System.Windows.Forms.ProgressBar progress;
+        private System.Windows.Forms.ProgressBar progressTask;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
