@@ -1,0 +1,14 @@
+D:\2ºsemestre\PC\Serie3\PC-Madness\Fase3\Serie3\Ex3GUI\bin\Debug\Ex3GUI.exe.config
+D:\2ºsemestre\PC\Serie3\PC-Madness\Fase3\Serie3\Ex3GUI\bin\Debug\Ex3GUI.exe
+D:\2ºsemestre\PC\Serie3\PC-Madness\Fase3\Serie3\Ex3GUI\bin\Debug\Ex3GUI.pdb
+D:\2ºsemestre\PC\Serie3\PC-Madness\Fase3\Serie3\Ex3GUI\bin\Debug\Serie3.exe
+D:\2ºsemestre\PC\Serie3\PC-Madness\Fase3\Serie3\Ex3GUI\bin\Debug\Serie3.pdb
+D:\2ºsemestre\PC\Serie3\PC-Madness\Fase3\Serie3\Ex3GUI\bin\Debug\Serie3.exe.config
+D:\2ºsemestre\PC\Serie3\PC-Madness\Fase3\Serie3\Ex3GUI\obj\Debug\Ex3GUI.csprojAssemblyReference.cache
+D:\2ºsemestre\PC\Serie3\PC-Madness\Fase3\Serie3\Ex3GUI\obj\Debug\Ex3GUI.Form1.resources
+D:\2ºsemestre\PC\Serie3\PC-Madness\Fase3\Serie3\Ex3GUI\obj\Debug\Ex3GUI.Properties.Resources.resources
+D:\2ºsemestre\PC\Serie3\PC-Madness\Fase3\Serie3\Ex3GUI\obj\Debug\Ex3GUI.csproj.GenerateResource.cache
+D:\2ºsemestre\PC\Serie3\PC-Madness\Fase3\Serie3\Ex3GUI\obj\Debug\Ex3GUI.csproj.CoreCompileInputs.cache
+D:\2ºsemestre\PC\Serie3\PC-Madness\Fase3\Serie3\Ex3GUI\obj\Debug\Ex3GUI.csproj.CopyComplete
+D:\2ºsemestre\PC\Serie3\PC-Madness\Fase3\Serie3\Ex3GUI\obj\Debug\Ex3GUI.exe
+D:\2ºsemestre\PC\Serie3\PC-Madness\Fase3\Serie3\Ex3GUI\obj\Debug\Ex3GUI.pdb

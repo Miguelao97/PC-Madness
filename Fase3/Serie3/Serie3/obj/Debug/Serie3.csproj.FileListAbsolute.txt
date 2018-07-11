@@ -1,0 +1,7 @@
+D:\2ºsemestre\PC\Serie3\PC-Madness\Fase3\Serie3\Serie3\bin\Debug\Serie3.exe.config
+D:\2ºsemestre\PC\Serie3\PC-Madness\Fase3\Serie3\Serie3\bin\Debug\Serie3.exe
+D:\2ºsemestre\PC\Serie3\PC-Madness\Fase3\Serie3\Serie3\bin\Debug\Serie3.pdb
+D:\2ºsemestre\PC\Serie3\PC-Madness\Fase3\Serie3\Serie3\obj\Debug\Serie3.csprojAssemblyReference.cache
+D:\2ºsemestre\PC\Serie3\PC-Madness\Fase3\Serie3\Serie3\obj\Debug\Serie3.csproj.CoreCompileInputs.cache
+D:\2ºsemestre\PC\Serie3\PC-Madness\Fase3\Serie3\Serie3\obj\Debug\Serie3.exe
+D:\2ºsemestre\PC\Serie3\PC-Madness\Fase3\Serie3\Serie3\obj\Debug\Serie3.pdb
